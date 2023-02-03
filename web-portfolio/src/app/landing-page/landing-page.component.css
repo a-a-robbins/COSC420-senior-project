@@ -1,0 +1,70 @@
+body {
+  background-color: lightcyan;
+}
+/*button {*/
+/*  padding: 40px;*/
+/*  box-sizing: border-box;*/
+/*  background-color: hotpink;*/
+/*}*/
+
+/*.container-fluid {*/
+/*  position: relative;*/
+/*  width: 50%;*/
+/*}*/
+
+/*.container-fluid img {*/
+/*  width: 100%;*/
+/*  height: auto;*/
+/*}*/
+
+/*.flavor {*/
+/*  position: absolute;*/
+/*  top: 50%;*/
+/*  left: 50%;*/
+/*  transform: translate(-50%, -50%);*/
+/*  -ms-transform: translate(-50%, -50%);*/
+/*  background-color: hotpink;*/
+/*  color: lightcyan;*/
+/*  font-size: 16px;*/
+/*  padding: 12px 24px;*/
+/*  border: none;*/
+/*  cursor: pointer;*/
+/*  border-radius: 5px;*/
+/*}*/
+
+.img-wrapper {
+  position: relative;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 25%;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  height: 50%;
+}
+
+.flavor {
+  background-color: hotpink;
+  color: lightcyan;
+  font-size: 100%;
+  cursor: pointer;
+  padding: 3rem;
+  margin: 1rem;
+}
+
+.flavor:hover {
+  background-color: blueviolet;
+}
